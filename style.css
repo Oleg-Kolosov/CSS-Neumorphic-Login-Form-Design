@@ -1,0 +1,119 @@
+/* Basic styles
+  ======================================= */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #555;
+    background: #ecf0f3;
+    overflow: hidden;
+}
+/* Form styles
+  ======================================= */
+.form {
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+}
+
+.form__logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: url(./img/spider-man.png) no-repeat center/cover;
+    box-shadow: 0px 0px 2px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf, -8px -8px 15px #ffffff;
+}
+
+.form__title {
+    padding-top: 24px;
+    margin: 0;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+
+.form__subtitle {
+    padding-top: 7px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+/* Fields styles
+  ======================================= */
+.form__fields {
+    width: 100%;
+    padding: 75px 5px 5px;
+}
+
+.form__fields input {
+    padding: 20px 10px 20px 5px;
+    font-size: 18px;
+    color: #555555;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.form__username,
+.form__password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+
+.form__fields svg {
+    height: 27px;
+    padding-top: 10px;
+    margin: 0 10px -3px 25px;
+    fill: #999;
+}
+/* Button styles
+  ======================================= */
+.form__signin-button {
+    width: 100%;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #24cfaa;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: 0.5s;
+}
+
+.form__signin-button:hover {
+    background: #2fdbb6;
+}
+
+.form__signin-button:active {
+    background: #1da88a;
+}
+/* Links styles
+  ======================================= */
+.form__links {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form__links a {
+    font-size: 15px;
+    color: #aaa;
+    text-decoration: none;
+}
